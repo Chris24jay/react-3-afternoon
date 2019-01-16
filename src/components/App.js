@@ -8,7 +8,7 @@ import Post from './Post/Post'
 
 class App extends Component {
   constructor() {
-    super();
+    super()
 
     this.state = {
       posts: []
