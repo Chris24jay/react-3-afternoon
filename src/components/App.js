@@ -25,7 +25,6 @@ class App extends Component {
     .then((response) => {
       this.setState({posts: response.data})
     })
-
   }
   
   updatePost(id, text) {
